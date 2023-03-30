@@ -19,7 +19,7 @@ public class AboutActivity extends AppCompatActivity {
 
     // ссылка для GitHub
     public void gitLink (View v){
-        Uri uri = Uri.parse("https://github.com/PaddeusAA/SimpleMetio");
+        Uri uri = Uri.parse("https://github.com/PaddeusAA/SimpleMeteo");
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         startActivity(intent);
     }
